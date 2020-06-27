@@ -218,12 +218,13 @@ a {
     
   } 
   .hgdl {
-    display: inherit;
+    display: block;
     flex-direction:column;
     align-items: flex-start;
   }
   .hgdl h2 {
     align-self: center;
+    text-align: center;
   }
   .hgdl h3 {
     margin-left:15px ;
@@ -257,6 +258,11 @@ a {
   .div-gdl img {
     width: 100%;
     height: 100%;
+  }
+  .div-hgdl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* footer-description */
