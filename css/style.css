@@ -263,6 +263,7 @@ a {
   .footer-description {
     background-color: #c39514;
     display: flex;
+    padding: 10px;
   }
   .form {
     display: inherit;
@@ -277,8 +278,15 @@ a {
   .select {
     color: #ffffff;
     background-color:#f1ba22 ;
+    padding: 7px;
     border: none;
     border-radius: 5px;
+  }
+  .select:hover {
+    border: none;
+    background-color: #ffffff;
+    color: #f1ba22;
+    box-shadow: #e7c567 2px 0 0 2px;
   }
 
   /* section */
