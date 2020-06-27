@@ -90,11 +90,21 @@ a {
     padding: 0;
     list-style: none;
   }
+  li:hover {
+    background-color: #ffffff;
+    /* color: darkblue; */
+
+  }
+  li a:hover {
+    color: darkblue;
+  }
   
   .logo {
     margin: 0;
+    margin-left: 20px;
     height: inherit;
     width: 190px;
+
 
   }
   .logo-link {
@@ -108,6 +118,7 @@ a {
   }
   .menu {
     height: inherit;
+    margin-right:20px ;
   }
   .header ol {
     display: flex;
