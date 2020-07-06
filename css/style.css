@@ -359,3 +359,72 @@ a {
     padding: 5px 20px;
   }
 
+  /* mediaqueries */
+
+  @media screen and (max-width: 1023px){
+
+  }
+  @media screen and (max-width: 767px){
+
+  }
+  @media screen and (max-width: 480px){
+    .des {
+      display: inline-block;
+    }
+    .hgdl{
+      display: block;
+      text-align: center;
+    }
+    .div-gdl{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .img-cite{
+      /* width: 100%; */
+      height: auto;
+    }
+    .cite-sub{
+      font-size: 10px;
+    }
+
+  }    
+  @media screen and (max-width:320px){
+    .header{
+      display: flex;
+      font-weight: 10px;
+    }
+    .header a{
+      padding: 0 5px;
+    }
+    .logo{
+      width: auto;
+      margin: 0;
+    }
+    .menu{
+      width: auto;
+      margin: 0;
+    }
+    .presentation{
+      text-align: center;
+    }
+    .presentation-button {
+      width: 40%;
+      height: 10%;
+    }
+    .presentation-button a {
+      font-size: auto;
+    }
+    .form h3 {
+      font-size: 15px;
+    }
+    .cite-sub{
+      font-size: 7px;
+    }
+    .footer{
+      font-size: 10px;
+    }
+    
+  }
+
+
