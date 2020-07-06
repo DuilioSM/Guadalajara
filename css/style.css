@@ -375,6 +375,9 @@ a {
       display: block;
       text-align: center;
     }
+    .presentation{
+      height: 50vh;
+    }
     .div-gdl{
       display: block;
       width: 100%;
@@ -382,7 +385,7 @@ a {
     }
     .img-cite{
       /* width: 100%; */
-      height: auto;
+      /* height: auto; */
     }
     .cite-sub{
       font-size: 10px;
